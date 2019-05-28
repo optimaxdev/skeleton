@@ -15,7 +15,8 @@
         "symfony/framework-bundle": "*",
         "symfony/yaml": "*",
         "ekino/newrelic-bundle": "^2.0",
-        "sentry/sentry-symfony": "^2.3"
+        "sentry/sentry-symfony": "^2.3",
+        "symfony/monolog-bundle": "^3.3"
     },
     "require-dev": {
         "optimax/code-quality": "^2.0",
