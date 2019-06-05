@@ -19,9 +19,9 @@
         "symfony/monolog-bundle": "^3.3"
     },
     "require-dev": {
-        "optimax/code-quality": "^2.0",
+        "optimax/code-quality": "^3.0",
         "optimax/version-check": "^1.2",
-        "phpunit/phpunit": "^8.0"
+        "optimax/micro-docker": "^1.0"
     },
     "config": {
         "preferred-install": {
