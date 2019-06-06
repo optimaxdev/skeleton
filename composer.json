@@ -3,7 +3,6 @@
     "type": "project",
     "license": "MIT",
     "description": "A minimal Symfony project recommended to create bare bones applications",
-    "minimum-stability": "dev",
     "require": {
         "php": "^7.2",
         "ext-ctype": "*",
@@ -20,8 +19,8 @@
     },
     "require-dev": {
         "optimax/code-quality": "^3.0",
-        "optimax/version-check": "^1.2",
-        "optimax/micro-docker": "^1.0"
+        "optimax/micro-docker": "^1.0",
+        "optimax/version-check": "^1.2"
     },
     "config": {
         "preferred-install": {
@@ -73,7 +72,7 @@
         "symfony": {
             "endpoint": "https://flex.gusadev.com",
             "allow-contrib": false,
-            "require": "4.4.*"
+            "require": "4.3.*"
         }
     }
 }
