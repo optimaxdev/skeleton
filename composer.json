@@ -15,14 +15,14 @@
         "symfony/console": "4.3.*",
         "symfony/dotenv": "4.3.*",
         "symfony/flex": "^1.1",
-        "symfony/maker-bundle": "^1.12",
         "symfony/monolog-bundle": "^3.3",
         "symfony/yaml": "4.3.*"
     },
     "require-dev": {
         "optimax/code-quality": "^3.0",
         "optimax/micro-docker": "^1.0",
-        "optimax/version-check": "^1.2"
+        "optimax/version-check": "^1.2",
+        "symfony/maker-bundle": "^1.12"
     },
     "config": {
         "preferred-install": {
