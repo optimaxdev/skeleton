@@ -1,26 +1,28 @@
 {
-    "name": "optimax/skeleton",
     "type": "project",
-    "license": "MIT",
-    "description": "A minimal Symfony project recommended to create bare bones applications",
+    "name": "optimax/skeleton",
+    "license": "proprietary",
     "require": {
         "php": "^7.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "ext-json": "*",
-        "symfony/console": "*",
-        "symfony/dotenv": "*",
-        "symfony/flex": "^1.1",
-        "symfony/framework-bundle": "*",
-        "symfony/yaml": "*",
         "ekino/newrelic-bundle": "^2.0",
+        "optimax/api-doc-bundle": "^2.0",
+        "optimax/health-check": "^2.0",
+        "sensio/framework-extra-bundle": "^5.4",
         "sentry/sentry-symfony": "^2.3",
-        "symfony/monolog-bundle": "^3.3"
+        "symfony/console": "4.3.*",
+        "symfony/dotenv": "4.3.*",
+        "symfony/flex": "^1.1",
+        "symfony/monolog-bundle": "^3.3",
+        "symfony/yaml": "4.3.*"
     },
     "require-dev": {
         "optimax/code-quality": "^3.0",
         "optimax/micro-docker": "^1.0",
-        "optimax/version-check": "^1.2"
+        "optimax/version-check": "^1.2",
+        "symfony/maker-bundle": "^1.12"
     },
     "config": {
         "preferred-install": {
