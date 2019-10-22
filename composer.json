@@ -1,8 +1,7 @@
 {
-    "name": "optimax/skeleton",
     "type": "project",
-    "license": "MIT",
-    "description": "A minimal Symfony project recommended to create bare bones applications",
+    "name": "optimax/skeleton",
+    "license": "proprietary",
     "require": {
         "php": "^7.2",
         "ext-ctype": "*",
