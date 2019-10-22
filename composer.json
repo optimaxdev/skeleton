@@ -8,19 +8,18 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "ext-json": "*",
-        "symfony/console": "*",
-        "symfony/dotenv": "*",
-        "symfony/flex": "^1.1",
-        "symfony/framework-bundle": "*",
-        "symfony/yaml": "*",
-        "ekino/newrelic-bundle": "^2.0",
-        "sentry/sentry-symfony": "^2.3",
-        "symfony/monolog-bundle": "^3.3"
+        "ekino/newrelic-bundle": "^2.1",
+        "nelmio/cors-bundle": "^1.5",
+        "optimax/api-doc-bundle": "^2.0",
+        "optimax/health-check": "^2.1",
+        "sensio/framework-extra-bundle": "^5.5",
+        "sentry/sentry-symfony": "^3.2",
+        "symfony/dotenv": "4.3.*",
+        "symfony/flex": "^1.4",
+        "symfony/monolog-bundle": "^3.4"
     },
     "require-dev": {
-        "optimax/code-quality": "^3.0",
-        "optimax/micro-docker": "^1.0",
-        "optimax/version-check": "^1.2"
+        "optimax/test-bundle": "^3.4"
     },
     "config": {
         "preferred-install": {
@@ -48,9 +47,7 @@
     },
     "scripts": {
         "auto-scripts": {
-            "cache:clear": "symfony-cmd",
-            "assets:install %PUBLIC_DIR%": "symfony-cmd",
-            "security-checker security:check": "script"
+            "cache:clear": "symfony-cmd"
         },
         "post-install-cmd": [
             "@auto-scripts"
